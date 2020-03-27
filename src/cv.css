@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+body > aside {
+    width: 30%;
+    max-width: 400px;
+}
+
+body > section {
+    max-width: 1000px;
+}
